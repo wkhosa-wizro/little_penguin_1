@@ -1,0 +1,15 @@
+--- linux-4.15.3/Makefile.orig	2018-10-05 12:50:44.674308399 +0200
++++ linux-4.15.3/Makefile	2018-10-05 12:51:16.683310207 +0200
+From: wisani khosa <wkhosa>
+Date: 04 October 2018
+Subject:[PATCH] add the string '-thor_kernel' at extraversion
+@@ -2,7 +2,7 @@
+ VERSION = 4
+ PATCHLEVEL = 15
+ SUBLEVEL = 3
+-EXTRAVERSION =
++EXTRAVERSION =-thor_kernel
+ NAME = Fearless Coyote
+ 
+ # *DOCUMENTATION*
+
